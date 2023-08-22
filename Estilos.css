@@ -133,6 +133,8 @@ section{
 }
 
 .galeria{
+  
+    align-self: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -143,12 +145,12 @@ section{
 }
 
 .caja{
-    height: 240px;
-    width: 320px;
+    height: 500PX;
+    width: 500PX;
     background-color: yellow;
     color: navy;
     border: 2px solid;
-    font-size: 0px;
+    font-size: 20px;
     text-align: center;
     line-height: 120px;
     text-transform: uppercase;
@@ -158,24 +160,16 @@ section{
    
 }
 .caja1{
-    background-image: url(Images/Gal01.jpg) ;
+    background-image: url(Images/1M.jpg);
     background-size: cover;
 }
 .caja2{
-    background-image: url(Images/Gal02.jpg) ;
+    background-image: url(Images/3M.jpg) ;
     background-size: cover;
 }
 
 .caja3{
-    background-image: url(Images/Gal03.jpg) ;
-    background-size: cover;
-}
-.caja4{
-    background-image: url(Images/Gal04.jpg) ;
-    background-size: cover;
-}
-.caja5{
-    background-image: url(Images/Gal05.jpg) ;
+    background-image: url(Images/6M.jpg) ;
     background-size: cover;
 }
 
