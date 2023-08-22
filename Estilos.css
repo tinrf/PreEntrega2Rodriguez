@@ -125,9 +125,64 @@ h4{
 section{
     height: 700px;
     width: 100%;
-    background-color: navy;
+    
     padding: 15px;
 }
+
+.galeria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow:wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+
+}
+
+.caja{
+    height: 240px;
+    width: 320px;
+    background-color: yellow;
+    color: navy;
+    border: 2px solid;
+    font-size: 0px;
+    text-align: center;
+    line-height: 120px;
+    text-transform: uppercase;
+    flex-grow: 5;
+    flex-shrink: 3;
+    padding: 10px;
+   
+}
+.caja1{
+    background-image: url(Images/Gal01.jpg) ;
+    background-size: cover;
+}
+.caja2{
+    background-image: url(Images/Gal02.jpg) ;
+    background-size: cover;
+}
+
+.caja3{
+    background-image: url(Images/Gal03.jpg) ;
+    background-size: cover;
+}
+.caja4{
+    background-image: url(Images/Gal04.jpg) ;
+    background-size: cover;
+}
+.caja5{
+    background-image: url(Images/Gal05.jpg) ;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
 
 .gal{
     text-align: center;
