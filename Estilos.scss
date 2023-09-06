@@ -1,30 +1,21 @@
+$color_1: white;
+$font-family_1: Verdana, Geneva, Tahoma, sans-serif;
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: whitesmoke;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  
-  $font-family_1: Verdana, Geneva, Tahoma, sans-serif;
-  $background-color_1: navy;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: $color_1;
+	font-family: $font-family_1;
+}
   
   header {
-      height: 80px;
-      background-color: $background-color_1;
-      padding: 20px;
-      font-size: 18px;
-      font-family: $font-family_1;
+    height: 80px;
+    background-color: navy;
+    padding: 20px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
-
-
-//   header {
-//     height: 80px;
-//     background-color: navy;
-//     padding: 20px;
-//     font-size: 18px;
-//     font-family: Verdana, Geneva, Tahoma, sans-serif;
-//   }
   
   .logo {
     float: left;
@@ -293,4 +284,4 @@
     text-align: center;
     line-height: 40px;
     text-shadow: px 2px 2px white;
-  }/*# sourceMappingURL=Estilos.css.map */
+  } /*# sourceMappingURL=Estilos.css.map */
