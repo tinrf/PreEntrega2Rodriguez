@@ -1,128 +1,126 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: whitesmoke;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: whitesmoke;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
-header{
-    height: 80px;
-    background-color:navy;
-    padding: 20px;
-    font-size: 18px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+header {
+  height: 80px;
+  background-color: navy;
+  padding: 20px;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.logo{
-    float: left;
-    font-weight: bold;
-    text-transform: uppercase;
+.logo {
+  float: left;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
-.logo span{
-    color: yellow;
+.logo span {
+  color: yellow;
 }
 
-.barra{
-    float: right;
+.barra {
+  float: right;
 }
 
-.barra ul{
-list-style: none;
+.barra ul {
+  list-style: none;
 }
 
-.barra ul li{
-    display: inline-block;
-    margin: 3px;
+.barra ul li {
+  display: inline-block;
+  margin: 3px;
 }
 
-.barra a{
-    text-decoration: none;
-    color: white;
-}.barra :hover{
-    color: yellow;
+.barra a {
+  text-decoration: none;
+  color: white;
+}
+
+.barra :hover {
+  color: yellow;
 }
 
 main {
-    height: calc(100vh - 80px);
-    width: 100%;
-    min-height: 1000px;
-    background-color: white;
-    background-image: url(Images/PRcover01.png);
-    background-size: cover;
+  height: calc(100vh - 80px);
+  width: 100%;
+  min-height: 1000px;
+  background-color: white;
+  background-image: url(Images/PRcover01.png);
+  background-size: cover;
 }
 
 main.entrenos {
-    background-image: url(Images/PRcover04entrenos.png);
+  background-image: url(Images/PRcover04entrenos.png);
 }
 
-main.nos{
-background-image: url(Images/PRcover02nos.png);
+main.nos {
+  background-image: url(Images/PRcover02nos.png);
 }
 
-main.contacto{
-    background-image: url(Images/PRcover03Contacto.png);
+main.contacto {
+  background-image: url(Images/PRcover03Contacto.png);
 }
-
 
 table.center {
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.call{
-    position: relative;
-    width: 90%;
-    padding: 15px;
-    background-color: rgb(0, 0, 0, 0.5);
-    float: right;
-    margin: 50px;
+.call {
+  position: relative;
+  width: 90%;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  float: right;
+  margin: 50px;
 }
 
-h1{
-    color: yellow;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-bottom: 20px;
-
+h1 {
+  color: yellow;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 20px;
 }
 
-.call p{
-    margin-bottom: 20px;
+.call p {
+  margin-bottom: 20px;
 }
 
-.call a{
-
-    background-color: rgb(255, 255, 0, 0.9);
-    color: blue;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    align-content: center;
+.call a {
+  background-color: rgba(255, 255, 0, 0.9);
+  color: blue;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  align-content: center;
 }
 
-.call p{
-    padding: 5px;
+.call p {
+  padding: 5px;
 }
 
-h2{
-    text-align: left;
-    text-transform: uppercase;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+h2 {
+  text-align: left;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h3{
-text-transform: uppercase;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-size: 12px;
-color: yellow;
-padding-top: 10px;
-padding-bottom: 10px;
+h3 {
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  color: yellow;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-h4{
-    padding-bottom: 20px;
+h4 {
+  padding-bottom: 20px;
 }
 
 /* section{
@@ -130,167 +128,157 @@ h4{
     width: 50%;
     padding: 15px;
 } */
-
-.galeria{
-    position: relative;
-    align-content: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex-flow:wrap;
-    justify-content: space-around;
-    float: inline-end;
-    padding: 15px;
+.galeria {
+  position: relative;
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: wrap;
+  justify-content: space-around;
+  float: inline-end;
+  padding: 15px;
 }
 
-.caja{
-    height: 300PX;
-    width: 300PX;
-    align-items: center;
-    background-color: yellow;
-    color: navy;
-    border: 2px solid;
-    line-height: 120px;
-    flex-grow: 5;
-    flex-shrink: 3;
-    padding: 10px;
-   
-}
-.caja1{
-    background-image: url(Images/1M.jpg);
-    background-size: cover;
-}
-.caja2{
-    background-image: url(Images/3M.jpg) ;
-    background-size: cover;
+.caja {
+  height: 300PX;
+  width: 300PX;
+  align-items: center;
+  background-color: yellow;
+  color: navy;
+  border: 2px solid;
+  line-height: 120px;
+  flex-grow: 5;
+  flex-shrink: 3;
+  padding: 10px;
 }
 
-.caja3{
-    background-image: url(Images/6M.jpg) ;
-    background-size: cover;
+.caja1 {
+  background-image: url(Images/1M.jpg);
+  background-size: cover;
 }
 
-.presentacion{
-height: 100%;
-padding: 20px;
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-template-rows: repeat(3, 200px)
-
-
+.caja2 {
+  background-image: url(Images/3M.jpg);
+  background-size: cover;
 }
 
-.item{
-    border: 2px solid navy;
-    background-size: cover;
-    background-position: center;
+.caja3 {
+  background-image: url(Images/6M.jpg);
+  background-size: cover;
 }
 
-.fot1{
-    background-image: url(Images/Gal01.jpg);
+.presentacion {
+  height: 100%;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 200px);
 }
 
-.fot2{
-    background-image: url(Images/Gal02.jpg);
-    /* grid-column: 2/4;
-    grid-row: 1/3; */
+.item {
+  border: 2px solid navy;
+  background-size: cover;
+  background-position: center;
 }
 
-.fot3{
-    background-image: url(Images/Gal03.jpg);
-    /* grid-row: 2/4; */
+.fot1 {
+  background-image: url(Images/Gal01.jpg);
 }
 
-.fot4{
-    background-image: url(Images/Gal04.jpg);
-    /* grid-column: 2/3; */
+.fot2 {
+  background-image: url(Images/Gal02.jpg);
+  /* grid-column: 2/4;
+  grid-row: 1/3; */
 }
 
-.fot5{
-    background-image: url(Images/Gal05.jpg) ;
-    /* grid-column: 3/4; */
+.fot3 {
+  background-image: url(Images/Gal03.jpg);
+  /* grid-row: 2/4; */
 }
 
-@media only screen and (max-width:480px){
-    .presentacion{
-        grid-template-columns: repeat(1, 300px);
-        grid-template-rows: repeat(6, 200px);
-    }
+.fot4 {
+  background-image: url(Images/Gal04.jpg);
+  /* grid-column: 2/3; */
 }
 
-
-@media only screen and (min-width:480px) and (max-width:768px){
-    .presentacion{
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(6, 500px);
-    }
-
+.fot5 {
+  background-image: url(Images/Gal05.jpg);
+  /* grid-column: 3/4; */
 }
 
-@media only screen and (min-width:768px) and (max-width:1024px){
-    .presentacion{
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 400px);
-    }
+@media only screen and (max-width: 480px) {
+  .presentacion {
+    grid-template-columns: repeat(1, 300px);
+    grid-template-rows: repeat(6, 200px);
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  .presentacion {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 500px);
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .presentacion {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 400px);
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .presentacion {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 400px);
+  }
+}
+.gal {
+  text-align: center;
 }
 
-@media only screen and (min-width:1024px){
-    .presentacion{
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 400px);
-    }
+button.enviar {
+  color: navy;
+  background-color: yellow;
+  padding: 20px;
 }
 
-
-
-.gal{
-    text-align: center;
-}
-
-button.enviar{
-    color: navy;
-    background-color: yellow;
-    padding: 20px;
-}
-
-input.form{
-    width: 400px;
+input.form {
+  width: 400px;
 }
 
 textarea {
-    width: 400px;
-    height: 150px;
+  width: 400px;
+  height: 150px;
 }
 
-footer{
-background-color: navy;
-color: whitesmoke;
-text-align: center;
-padding: 20px;
-font-size: 15px;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+footer {
+  background-color: navy;
+  color: whitesmoke;
+  text-align: center;
+  padding: 20px;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-footer p{
-    color: whitesmoke;
-    padding: auto;
+footer p {
+  color: whitesmoke;
+  padding: auto;
 }
 
-.redes{
-    color: navy;
-    font-size: 40px;
-    letter-spacing: 10px;
-    padding: 10px;
+.redes {
+  color: navy;
+  font-size: 40px;
+  letter-spacing: 10px;
+  padding: 10px;
 }
 
-.wp{
-    height: 40px;
-    width: 40px;
-    position: fixed;
-    right: 40px;
-    bottom: 40px;
-    font-size: 40px;
-    text-align: center;
-    line-height: 40px;
-    text-shadow:  px 2px 2px white;
-}
+.wp {
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  font-size: 40px;
+  text-align: center;
+  line-height: 40px;
+  text-shadow: px 2px 2px white;
+} /*# sourceMappingURL=Estilos.css.map */
