@@ -1,5 +1,6 @@
 $color_1: white;
 $font-family_1: Verdana, Geneva, Tahoma, sans-serif;
+$background-color_1: navy;
 
 * {
 	margin: 0;
@@ -8,14 +9,14 @@ $font-family_1: Verdana, Geneva, Tahoma, sans-serif;
 	color: $color_1;
 	font-family: $font-family_1;
 }
-  
-  header {
-    height: 80px;
-    background-color: navy;
-    padding: 20px;
-    font-size: 18px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
+
+header {
+	height: 80px;
+	background-color: $background-color_1;
+	padding: 20px;
+	font-size: 18px;
+	font-family: $font-family_1;
+}
   
   .logo {
     float: left;
