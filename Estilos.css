@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: white;
+  color: whitesmoke;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -19,6 +19,7 @@ header {
   font-weight: bold;
   text-transform: uppercase;
 }
+
 .logo span {
   color: yellow;
 }
@@ -91,7 +92,7 @@ h1 {
 }
 
 .call a {
-  background-color: yellow;
+  background-color: rgba(255, 255, 0, 0.9);
   color: blue;
   text-decoration: none;
   padding: 10px 20px;
