@@ -173,7 +173,7 @@ h4 {
   padding: 20px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 200px);
+  grid-template-rows: repeat(2, 200px);
 }
 
 .item {
@@ -206,6 +206,10 @@ h4 {
   background-image: url(Images/Gal05.jpg);
   /* grid-column: 3/4; */
 }
+.fot6 {
+  background-image: url(Images/Gal05.jpg);
+}
+
 
 @media only screen and (max-width: 480px) {
   .presentacion {
@@ -213,24 +217,28 @@ h4 {
     grid-template-rows: repeat(6, 200px);
   }
 }
+
 @media only screen and (min-width: 480px) and (max-width: 768px) {
   .presentacion {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6, 500px);
   }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .presentacion {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 400px);
   }
 }
+
 @media only screen and (min-width: 1024px) {
   .presentacion {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 400px);
   }
 }
+
 .gal {
   text-align: center;
 }
@@ -281,4 +289,6 @@ footer p {
   text-align: center;
   line-height: 40px;
   text-shadow: px 2px 2px white;
-} /*# sourceMappingURL=Estilos.css.map */
+}
+
+/*# sourceMappingURL=Estilos.css.map */
