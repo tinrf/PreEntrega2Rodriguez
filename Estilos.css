@@ -154,8 +154,8 @@ h4 {
 }
 
 .caja1 {
-  background-image: url(Images/1M.jpg);
-  background-size: cover;
+  /* background-image: url(Images/1M.jpg);
+  background-size: cover; */
 }
 
 .caja2 {
@@ -207,7 +207,7 @@ h4 {
   /* grid-column: 3/4; */
 }
 .fot6 {
-  background-image: url(Images/Gal05.jpg);
+  background-image: url(Images/Gal09.jpg);
 }
 
 
